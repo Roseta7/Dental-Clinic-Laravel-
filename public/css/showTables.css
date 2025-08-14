@@ -1,0 +1,194 @@
+* {
+    border: none !important;
+}
+
+.card-custom {
+    width: 1200px !important;
+    border-radius: 0.75rem;
+    background-color: #111827 !important;
+}
+
+.card h5 {
+    color: #a3d3f5;
+}
+
+.badge-show {
+    background-color: #d1fae5;
+    color: #065f46;
+    transition: transform 0.5s ease;
+    min-width: 100px;
+    height: 36px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    border: none !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+}
+
+.badge-show:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.badge-show a {
+    background-color: #d1fae5;
+    color: #065f46;
+
+}
+
+.badge-delete {
+    background-color: #fee2e2;
+    color: #991b1b;
+    transition: transform 0.5s ease;
+    min-width: 100px;
+    font-weight: 500;
+    height: 36px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    display: inline-block;
+}
+
+.badge-delete:hover {
+    transform: scale(1.05);
+
+}
+
+.badge-update {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    transition: transform 0.5s ease;
+    font-weight: 500;
+    min-width: 100px;
+    height: 36px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    display: inline-block;
+}
+
+.badge-update:hover {
+    transform: scale(1.05);
+
+}
+
+.dark-table h5 {
+    margin-bottom: 1rem;
+}
+
+.table-responsive {
+    flex: 1;
+    max-height: 560px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    direction: ltr;
+}
+
+/* Scrollbar */
+.table-responsive::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: 2px solid #f1f1f1;
+    border-radius: 2px;
+}
+
+.table-responsive {
+    scrollbar-width: thin;
+    scrollbar-color: #a3d3f5 transparent;
+}
+
+.dark-table table {
+    width: 100%;
+    min-width: 1000px;
+    border-collapse: separate;
+    border-spacing: 0 0.75rem;
+    white-space: nowrap;
+}
+
+.dark-table thead th {
+    background-color: #1f2937;
+    color: #6c757d;
+    border-bottom: none;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+}
+
+.dark-table tbody td {
+    background-color: #1f2937;
+    color: #f3f4f6;
+    padding: 0.4rem;
+    border: none;
+    vertical-align: middle;
+}
+
+
+.dark-table tbody td img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.dark-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.dark-table tbody tr:hover td {
+    background-color: #2a3444 !important;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    height: .5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a3d3f5;
+}

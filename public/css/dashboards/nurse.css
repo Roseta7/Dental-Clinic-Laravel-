@@ -1,0 +1,215 @@
+body {
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    flex: 1;
+    background-color: #172334 !important;
+    padding: 1rem;
+}
+
+/* Cards */
+.cards .card {
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+
+.cards .card:hover {
+    transform: translateY(-5px);
+}
+
+.card.one {
+    background-color: #ffe6e6 !important;
+    color: #333;
+}
+
+.card.two {
+    background-color: #fff4d6 !important;
+    color: #333;
+}
+
+.card.three {
+    background-color: #e2f9f4 !important;
+    color: #333;
+}
+
+.card.four {
+    background-color: #ece3ff !important;
+    color: #333;
+}
+
+.stat-icon {
+    font-size: 1.5rem;
+    margin-right: 0.75rem;
+    color: #333;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+@media (max-width: 576px) {
+    .stat-icon {
+        font-size: 1.2rem !important;
+    }
+
+    .card-body {
+        padding: 0.5rem !important;
+    }
+}
+
+/* Dark Table Styles */
+.dark-table {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    background-color: #111827;
+    color: #fff;
+}
+
+.dark-table h5 {
+    margin-bottom: 1rem;
+}
+
+.dark-table .table-responsive {
+    flex: 1;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    direction: ltr;
+}
+
+/* Scrollbar */
+.dark-table .table-responsive::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.dark-table .table-responsive::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.dark-table .table-responsive::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: 2px solid #f1f1f1;
+    border-radius: 2px;
+}
+
+.dark-table .table-responsive {
+    scrollbar-width: thin;
+    scrollbar-color: #a3d3f5 transparent;
+}
+
+.dark-table table {
+    width: 100%;
+    min-width: 700px;
+    border-collapse: separate;
+    border-spacing: 0 0.75rem;
+    white-space: nowrap;
+}
+
+.dark-table thead th {
+    background-color: #1f2937;
+    color: #6c757d;
+    border-bottom: none;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+}
+
+.dark-table tbody td {
+    background-color: #1f2937;
+    color: #f3f4f6;
+    padding: 0.4rem;
+    border: none;
+    vertical-align: middle;
+}
+
+
+.dark-table tbody td img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.dark-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.dark-table tbody tr:hover td {
+    background-color: #2a3444 !important;
+    cursor: pointer;
+}
+
+.dark-table .pagination {
+    background-color: transparent;
+    padding: 0;
+}
+
+.dark-table .pagination .page-link {
+    color: #f3f4f6;
+    background-color: #1f2937;
+    border: none;
+    margin: 0 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.dark-table .pagination .page-link:hover {
+    background-color: #374151;
+    color: #fff;
+}
+
+.dark-table .pagination .page-item.active .page-link {
+    background-color: #4f46e5;
+    color: #fff;
+}
+
+.dark-table .pagination .page-link:focus {
+    box-shadow: none;
+}
+
+/* Chart Containers */
+.chart-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.chart-container.bar {
+    padding-bottom: 50%;
+}
+
+.chart-container canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+::-webkit-scrollbar {
+    height: .5rem;
+    width: 0.40rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a3d3f5;
+}

@@ -1,0 +1,43 @@
+# Composer / PHP
+/vendor/
+
+#Node / front-end
+/node_modules/
+/public/hot
+
+# Laravel storage / runtime
+/public/storage
+/storage/*.key
+/storage/debugbar
+/storage/framwork/cache/data
+/storage/logs
+/storage/*.log
+
+# Environment files (do NOT commit .env)
+/.env
+.env.*
+!.env.example
+
+# IDE /Editor files
+/.idea
+/.vscode
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# Homestead / Vagrant
+Homestead.json
+Homestead.yaml
+
+# Misc
+.sass-cache
+.cache
