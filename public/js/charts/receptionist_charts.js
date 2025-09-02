@@ -1,19 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
-	try 
+	try
 	{
-		// Bar Chart (Appointments by Hour). 
+		// Bar Chart (Appointments by Hour).
 		const hoursLabels = appointmentsByHour.map(item => item.hour.toString().padStart(2,'0') + ":00");
 		const hoursValues = appointmentsByHour.map(item => item.total);
 
 		const barCtx = document.getElementById("barChart").getContext("2d");
-		
+
 		const gradient = barCtx.createLinearGradient(0, 0, 0, 400);
-		gradient.addColorStop(0, "rgba(66, 182, 245, 1)");
-		gradient.addColorStop(1, "rgba(66, 182, 245, 0.6)");
+		gradient.addColorStop(0, "rgba(29, 78, 216, 1)");
+		gradient.addColorStop(1, "rgba(14, 165, 233, 0.6)"); 
 
 		const maxBarValue = Math.max(...hoursValues);
 		const dynamicMaxY = maxBarValue <= 5 ? 5 : Math.ceil(maxBarValue * 1.2);
-		
+
 		new Chart(barCtx, {
 			type: "bar",
 			data: {
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 					data: hoursValues,
 					backgroundColor: gradient,
 					borderWidth: 0,
-					barThickness: 50,
+					barThickness: 35,
 				}]
 			},
 			options: {
@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
 							label: function(context) {
 								return `${context.dataset.label || ''}: ${context.parsed.y}`;
 							}
-						}
+						},
+						responsive: true,
 					}
 				},
 				scales: {
@@ -65,18 +66,17 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
 
 		// Doughnut Chart (Appointments by Status)
-
 		const statusLabels = appointmentsByStatus.map(item => item.appointment_status);
 		const statusValues = appointmentsByStatus.map(item => item.total);
 
 		const doughnutCtx = document.getElementById("myChart").getContext("2d");
 
 		const statusColors = {
-			in_progress: "#44B3F5",
-			rescheduled: "#007BFF",
-			cancelled: "#F26D7D",
-			completed: "#2FCE98",
-			upcoming: "#FFD43B",
+			rescheduled: "#2563EB",
+			cancelled:  "#EF4444",
+			completed:  "#10B981",
+			upcoming:   "#F59E0B",
+			in_progress:"#3B82F6",
 		};
 
 		const doughnutDatasets = statusLabels.map((appointment_status, index) => {
@@ -88,14 +88,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 			return {
 				data: [value, total - value],
-				backgroundColor: [color, "#2B2B3F"],
+				backgroundColor: [color, "#0f1724"],
 				borderWidth: 0,
 				cutout: `${65 - index * 10}%`,
 				radius: `${100 - index * 10}%`,
 				borderRadius: 3
 			};
 		});
-
 		new Chart(doughnutCtx, {
 			type: "doughnut",
 			data: {
@@ -113,7 +112,8 @@ document.addEventListener('DOMContentLoaded', function() {
 						labels: {
 							generateLabels: function(chart) {
 								return statusLabels.map((label, i) => {
-									const color = statusColors[label] || "#999";
+									const labelKey = label.replace("-", "_");
+									const color = statusColors[labelKey] || "#999";
 									const value = statusValues[i];
 									return {
 										text: `${label}: ${value}`,
@@ -128,7 +128,6 @@ document.addEventListener('DOMContentLoaded', function() {
 							color: "#fff",
 							padding: 20
 						}
-					
 					},
 					tooltip: {
 						callbacks: {
@@ -142,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				}
 			}
 		});
-		
+
 	}
 	catch (error) {
 		console.error("Error loading charts:", error);

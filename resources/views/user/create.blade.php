@@ -52,7 +52,9 @@
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
+                    </div>
 
+                    <div class="form-col">
                         <div class="form-group">
                             <label class="required">Gender:</label>
                             <div class="radio-group">

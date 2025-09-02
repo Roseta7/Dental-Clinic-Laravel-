@@ -37,9 +37,15 @@
                             <tbody>
                                 @foreach($details['old'] as $field => $oldValue)
                                     <tr>
-                                        <td>{{ $field }}</td>
-                                        <td style="color: #f87171;">{{ is_array($oldValue) ? json_encode($oldValue) : $oldValue }}</td>
-                                        <td style="color: #34d399;">{{ is_array($details['new'][$field]) ? json_encode($details['new'][$field]) : $details['new'][$field] }}</td>
+                                        <td data-label="Field">{{ $field }}</td>
+
+                                        <td class="col-long" data-label="Old Value">
+                                            <span style="color: #f87171;">{{ is_array($oldValue) ? json_encode($oldValue) : $oldValue }}</span>
+                                        </td>
+
+                                        <td class="col-long" data-label="New Value" >
+                                            <span style="color: #34d399;">{{ is_array($details['new'][$field]) ? json_encode($details['new'][$field]) : $details['new'][$field] }}</span>
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>
@@ -50,15 +56,18 @@
                         <table class="custom-dark-table">
                             <thead>
                                 <tr>
-                                    <th>Field</th>
+                                    <th class="p-3">Field</th>
                                     <th>Deleted Value</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach($details['old'] as $field => $value)
                                     <tr>
-                                        <td>{{ $field }}</td>
-                                        <td  style="color: #f87171;">{{ is_array($value) ? json_encode($value) : $value }}</td>
+                                        <td data-label="Field">{{ $field }}</td>
+                                        
+                                        <td class="col-long" data-label="Deleted Value">
+                                            <span style="color: #f87171;">{{ is_array($value) ? json_encode($value) : $value }}</span>
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>

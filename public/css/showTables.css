@@ -3,7 +3,7 @@
 }
 
 .card-custom {
-    width: 1200px !important;
+    width: auto !important;
     border-radius: 0.75rem;
     background-color: #111827 !important;
 }
@@ -24,14 +24,6 @@
     font-size: 14px;
     cursor: pointer;
     border: none !important;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    -webkit-transition: transform 0.5s ease;
-    -moz-transition: transform 0.5s ease;
-    -ms-transition: transform 0.5s ease;
-    -o-transition: transform 0.5s ease;
 }
 
 .badge-show:hover {
@@ -45,7 +37,6 @@
 .badge-show a {
     background-color: #d1fae5;
     color: #065f46;
-
 }
 
 .badge-delete {
@@ -68,12 +59,10 @@
     -moz-transition: transform 0.5s ease;
     -ms-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
-    display: inline-block;
 }
 
 .badge-delete:hover {
     transform: scale(1.05);
-
 }
 
 .badge-update {
@@ -96,12 +85,10 @@
     -moz-transition: transform 0.5s ease;
     -ms-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
-    display: inline-block;
 }
 
 .badge-update:hover {
     transform: scale(1.05);
-
 }
 
 .dark-table h5 {
@@ -110,7 +97,7 @@
 
 .table-responsive {
     flex: 1;
-    max-height: 560px;
+    max-height: 500px;
     overflow-y: scroll;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -141,7 +128,7 @@
 
 .dark-table table {
     width: 100%;
-    min-width: 1000px;
+    min-width: 100px !important;
     border-collapse: separate;
     border-spacing: 0 0.75rem;
     white-space: nowrap;
@@ -178,17 +165,4 @@
 .dark-table tbody tr:hover td {
     background-color: #2a3444 !important;
     cursor: pointer;
-}
-
-::-webkit-scrollbar {
-    height: .5rem;
-    width: 1rem;
-}
-
-::-webkit-scrollbar-track {
-    background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #a3d3f5;
 }

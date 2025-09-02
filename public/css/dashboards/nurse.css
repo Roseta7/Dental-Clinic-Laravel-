@@ -1,3 +1,7 @@
+*{
+    border: none !important;
+}
+
 body {
     color: #333;
     font-family: 'Segoe UI', sans-serif;
@@ -124,7 +128,7 @@ body {
 }
 
 .dark-table thead th {
-    background-color: #1f2937;
+    background-color: transparent;
     color: #6c757d;
     border-bottom: none;
     font-weight: 500;
@@ -175,7 +179,7 @@ body {
 }
 
 .dark-table .pagination .page-item.active .page-link {
-    background-color: #4f46e5;
+    background-color: #a3d3f5;
     color: #fff;
 }
 

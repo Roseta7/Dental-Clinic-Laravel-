@@ -371,7 +371,7 @@ div .card h5 {
 }
 
 #chart-container {
-    width: 500px;
+    width: auto;
     height: 400px;
 }
 
@@ -403,4 +403,27 @@ div .card h5 {
     height: 14px;
     margin-right: 10px;
     border-radius: 3px;
+}
+
+.table-scroll-container.horizontal-scroll {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll-container.horizontal-scroll table {
+    width: 100%;
+    min-width: 900px;
+    white-space: nowrap;
+}
+
+.table-scroll-container.horizontal-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+.table-scroll-container.horizontal-scroll::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: rgba(0,0,0,0.15);
+}
+.table-scroll-container.horizontal-scroll::-webkit-scrollbar-track {
+    background: transparent;
 }

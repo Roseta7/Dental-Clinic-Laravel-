@@ -61,7 +61,7 @@
 								<i class="fa-solid fa-calendar-days fs-3 icon-2"></i>
 							</div>
 							<div>
-								<h5 class="fw-bold mb-2">
+								<h5 class="fw-bold mb-2 text-nowrap">
 									Today's Appointments
 								</h5>
 								<p class="fw-bold mb-2 numb">
@@ -78,7 +78,7 @@
 								<i class="fa-regular fa-calendar-xmark fs-3 icon-3"></i>
 							</div>
 							<div>
-								<h5 class="fw-bold mb-2 ">
+								<h5 class="fw-bold mb-2 text-nowrap">
 									Cancelled Appointments
 								</h5>
 								<p class="fw-bold mb-2 numb">
@@ -91,9 +91,9 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12 col-lg-7 content-tab table-responsive rounded ml-2">
+			<div class="col-12 col-lg-6 content-tab table-responsive rounded ml-2">
 				<h3 class="fw-bold fs-4 mb-3  my-3">Today's Appointments details</h3>
-				<div class="table-scroll-container">
+				<div class="table-scroll-container horizontal-scroll">
 					<table class="table border-0 mb-0 text-center table-hover">
 						<thead>
 							<tr class="rounded">
@@ -171,7 +171,7 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="col-12 col-lg-5">
+			<div class="col-12 col-lg-6">
 				<div class="  h-100 card card-chart">
 					<div class="card-header">
 						<h4 class="card-title"> Today's Appointments by hour</h4>
@@ -183,7 +183,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12 col-lg-7 mt-3 content-tab table-responsive rounded">
+			<div class="col-12 col-lg-6 mt-3 content-tab table-responsive rounded">
 				<h3 class="fw-bold fs-4 my-3">Today's Patients</h3>
 				<h6 class="py-0 my-0">" Info of patients who have appointment today "</h6>
 				<div class="table-scroll-container">
@@ -242,10 +242,10 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="col-12 col-lg-5">
+			<div class="col-12 col-lg-6">
 				<div class=" mt-3 card card-chart">
 					<div class="card-header">
-						<h4 class="card-title"> Today's Appointments by hour</h4>
+						<h4 class="card-title">Weekly Appointments by Status</h4>
 					</div>
 					<div id="container">
 						<div id="chart-container1">

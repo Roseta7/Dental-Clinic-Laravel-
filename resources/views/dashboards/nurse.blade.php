@@ -9,7 +9,7 @@
 @endpush
 
 @section('content')
-    <div class="container mb-3">
+    <div class="mb-3">
         <div class="row g-3 cards">
             <div class="col-12 col-sm-6 col-md-3">
                 <div class="card one shadow-sm h-100">
@@ -59,7 +59,7 @@
     </div>
 
     <!-- Today's Patients & Total Services -->
-    <div class="container mb-4">
+    <div class="mb-4">
         <div class="row g-4 align-items-stretch">
             <div class="col-12 col-lg-6 d-flex">
                 <div class="dark-table p-3 w-100">
@@ -133,7 +133,7 @@
     </div>
 
     <!-- Patients &  Table -->
-    <div class="container">
+    <div>
         <div class="row g-4 align-items-stretch">
             <div class="col-12 col-lg-6 d-flex">
                 <div class="dark-table p-3 w-100">

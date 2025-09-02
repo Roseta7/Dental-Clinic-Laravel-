@@ -35,7 +35,7 @@ class DashboardController extends Controller
         $todayAppointments = Appointment::with(['patient', 'dentist'])
             ->whereDate('appointment_date', today())
             ->orderBy('appointment_time')
-            ->paginate(5, ['*'], 'appointments_page');
+            ->paginate(7, ['*'], 'appointments_page');
 
         $patientsWithAppointmentsToday = Patient::whereHas('appointments', function ($query) {
             $query->whereDate('appointment_date', today());

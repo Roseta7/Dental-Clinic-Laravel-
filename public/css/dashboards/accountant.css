@@ -1,6 +1,10 @@
+*{
+    border: none !important;
+}
+
 :root {
     --bg-page: #1A1A2E;
-    --card-radius: 20px;
+    --card-radius: 5px;
     --shadow-color: rgba(0, 0, 0, 0.4);
 
     --card1-bg: #2E2739;

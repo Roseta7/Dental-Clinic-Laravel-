@@ -14,7 +14,7 @@
 	</h2>
 
 	<!-- Cards -->
-	<div class="dashboard container p-3">
+	<div class="dashboard p-3">
 		<!-- Card 1 -->
 		<div class="card">
 			<div class="header">
@@ -34,30 +34,39 @@
 		</div>
 
 		<!-- Card 3 -->
-		<div class="card">
+        <div class="card">
 			<div class="header">
 				<div class="icon"><i class="fas fa-coins"></i></div>
 			</div>
-			<div class="flex-wrap justify-content-between ">
-				<div class="value "><span style="font-size: 25px;">Total:</span><h4 style="display: inline;"> {{ $unpaidInvoicesTotal }}</h4></div>
-				<div class="value"><span style="font-size: 25px;"> Num:</span><h4 style="display: inline;"> {{ $unpaidInvoicesCount }}</h4></div>
+			<div class=" flex-wrap ">
+				<div class="value " style="font-size: 20px;">
+					<span style="font-size: 20px; margin: 0;">Total:</span>{{ $unpaidInvoicesTotal }}
+				</div>
+				<div class="value" style="font-size: 15px; margin: 0;">
+					<span style="font-size: 15px; margin: 0;">Num:</span> {{ $unpaidInvoicesCount }}
+				</div>
 			</div>
-			<div class="percent">Unpaid Invocies This Month</div>
-		</div>
+			<div class="percent">Unpaid Invocies</div>
+        </div>
 
 		<!-- Card 4 -->
-		<div class="card">
+        <div class="card">
 			<div class="header">
 				<div class="icon"><i class="fas fa-pills"></i></div>
 			</div>
-			<div class="value"><span style="font-size: 25px;">{{ $topTreatment['treatment'] ?? 'No data' }}</span></div>
-			<div class="value"><span style="font-size: 25px;">{{ isset($topTreatment['percentage']) ? $topTreatment['percentage'] . '%' : '-' }}</span></div>
-			<div class="percent">Top Treatments by Revenue</div>
-		</div>
+			<div class="flex-wrap">
+				<div class="value" style="font-size: 20px;">{{ $topTreatment['treatment'] ?? 'No data' }}</div>
+				<div class="value" style="font-size: 15px; margin: 0;">
+					<span style="font-size: 15px; margin: 0;">{{ isset($topTreatment['percentage']) ? $topTreatment['percentage'] . '%' : '-' }}</span>
+				</div>
+			</div>
+			<div class="percent">Top Treatment</div>
+        </div>
 	</div>
 
+
 	<!-- Invoice Details & Revenue Growth -->
-	<div class="container mb-4">
+	<div class="mb-4">
 		<div class="row g-4 align-items-stretch">
 			<div class="col-12 col-lg-6 d-flex">
 				<div class="dark-table p-3 w-100">
@@ -141,7 +150,7 @@
 	</div>
 
 	<!-- Revenue By Type Of Treatment & Table Monthly Revenue Leaders -->
-	<div class="container">
+	<div>
 		<div class="row g-4 align-items-stretch">
 			<div class="col-12 col-lg-6 d-flex">
 				<div class="dark-table p-3 w-100">

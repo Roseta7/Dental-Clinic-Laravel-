@@ -100,6 +100,9 @@
                                 <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
+                    </div>
+
+                    <div class="form-col">
 
                         <div class="form-group">
                             <label for="status" class="required">Visit Type:</label>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 * {
+    border: none !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -60,15 +61,15 @@
 .card-custom {
     background-color: #1f2937 !important;
     border: none !important;
-    border-radius: 15px ;
+    border-radius: 5px !important ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 1rem;
     color: #fff;
     transition: transform var(--transition);
-    -webkit-border-radius: 15px ;
-    -moz-border-radius: 15px ;
-    -ms-border-radius: 15px ;
-    -o-border-radius: 15px ;
+    -webkit-border-radius: 5px !important ;
+    -moz-border-radius: 5px !important ;
+    -ms-border-radius: 5px !important ;
+    -o-border-radius: 5px !important ;
 }
 
 .card-custom:hover {
@@ -315,8 +316,8 @@ canvas {
 }
 
 .cards.row {
-    column-gap: 1.5rem;
-    row-gap: 1.5rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
 }
 ::-webkit-scrollbar {
     height: .5rem;

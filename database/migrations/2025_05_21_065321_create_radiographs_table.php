@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('imageDescription',200)->nullable();
             $table->string('image_path', 255)->comment('Path to the uploaded radiograph image');
             $table->timestamps();
-            $table->foreign('appointment_id')->references('id')->on('appointments')->nullOnDelete();
+            $table->foreign('appointment_id')->references('id')->on('appointments')->onDelete('cascade');
             $table->comment('This table stores radiographic images taken for patients, optionally linked to appointmens. Includes date and description of the image.');
         });
     }

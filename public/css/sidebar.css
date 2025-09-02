@@ -230,3 +230,10 @@ body {
 ::-webkit-scrollbar-thumb {
     background-color: #a3d3f5;
 }
+
+.sidebar-footer button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
