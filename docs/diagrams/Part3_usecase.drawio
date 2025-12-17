@@ -1,0 +1,105 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="LaVUwWPrrlS3agPjB9rJ">
+    <mxGraphModel dx="1876" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-1" value="&lt;h3&gt;&lt;font style=&quot;color: rgb(255, 191, 0);&quot;&gt;Admin&lt;/font&gt;&lt;/h3&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFBF00;gradientColor=#FFBF00;strokeColor=#FFBF00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="70" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-2" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt; &lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Users&amp;nbsp; Management&lt;/font&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="110" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-3" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;/font&gt; Audit Logs Management" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="285" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-4" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt; &lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Patients Management&lt;/font&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-5" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;/font&gt; Appointments Management" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-6" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;/font&gt; Treatments Management" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-7" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;/font&gt; Invoices Management" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-8" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;/font&gt; Radiographs Management" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-9" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;/font&gt; Medical Histories Management" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry y="270" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-10" value="&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;/font&gt; Doctor Notes Management" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="190" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-12" value="&lt;font style=&quot;font-family: Verdana;&quot;&gt;Admin has full system privileges&lt;/font&gt;&lt;div style=&quot;font-family: Verdana;&quot;&gt;&amp;nbsp;(all Use Cases).&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#804900;gradientColor=#FFF2A1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="340" width="105" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=280;entryDy=32;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=280;entryDy=32;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="170" />
+              <mxPoint x="315" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=280;entryDy=32;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="200" />
+              <mxPoint x="335" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=280;entryDy=32;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="220" />
+              <mxPoint x="355" y="382" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=32;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="170" />
+              <mxPoint x="530" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=32;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="185" />
+              <mxPoint x="530" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=32;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="200" />
+              <mxPoint x="510" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wo_er2uzdAPpFVeExqxx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=23;entryPerimeter=0;strokeColor=#FFBF00;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Wo_er2uzdAPpFVeExqxx-1" target="Wo_er2uzdAPpFVeExqxx-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="220" />
+              <mxPoint x="490" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
